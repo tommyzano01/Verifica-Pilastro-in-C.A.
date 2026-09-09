@@ -14,7 +14,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Creazione dei Tab per l'input dei dati
-tab1, tab2 = st.tabs(["🧱 Materiali & Geometria", "⚖️ Carichi & Armature"])
+tab1, tab2 = st.tabs(["Materiali & Geometria", "Carichi & Armature"])
 
 with tab1:
     col1, col2 = st.columns(2)
